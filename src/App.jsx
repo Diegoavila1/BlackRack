@@ -1,10 +1,18 @@
-import './App.css'
+import {Nav} from './Nav'
+import {MainMain} from './MainMain'
+import {SectionViewTraining} from './SectionViewTraining'
+import {SectionContact} from './SectionContact'
+import {Footer} from './Footer'
 
 function App() {
 
-  return (
+  return ( 
     <>
-      <h1>GolA</h1>
+      <Nav/>
+      <MainMain/>
+      <SectionViewTraining/>
+      <SectionContact/>
+      <Footer/>
     </>
   )
 }
